@@ -1,3 +1,5 @@
+# https://edube.org/learn/pe-1/lab-essentials-of-the-if-else-statement-3
+
 income = float(input("Enter the annual income: "))
 # relief is a PIT - 18% from income
 
