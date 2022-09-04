@@ -1,13 +1,3 @@
-block_num = int(input("input number of blocks: ")) # 6
-
-a = 1
-b = 1
-c = a + b
-c = b
-while block_num != 0:
-    c = a + b
-    b = c
-    print(a, b, c)
 # i = 3
 # for i in range(5):
 #     print(i)
