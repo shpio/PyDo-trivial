@@ -85,8 +85,53 @@
 # ###
 #
 
-hat_list = [1, 2, 3, 4, 5]
-hat_list[2] = int(input("please input number: "))
-del hat_list[-1]
-print(len(hat_list))
-print(hat_list)
+# hat_list = [1, 2, 3, 4, 5]
+# hat_list[2] = int(input("please input number: "))
+# del hat_list[-1]
+# print(len(hat_list))
+# print(hat_list)
+
+# #adding element to the list I
+# numbers = [111, 7, 2, 1]
+# print(len(numbers))
+# print(numbers)
+#
+# ###
+#
+# numbers.append(4)
+#
+# print(len(numbers))
+# print(numbers)
+#
+# ###
+#
+# numbers.insert(0, 222)
+# print(len(numbers))
+# print(numbers)
+#
+# numbers.insert(1, 333)
+# print(len(numbers))
+# print(numbers)
+
+
+# my_list = [] # create an empty list.
+# for i in range(5):
+#     my_list.insert(0, i + 1)
+# print(my_list)
+
+# my_list = [] # create an empty list
+#
+# for i in range(5):
+#     my_list.append(i+1)
+# #my_list.sort(reverse=True)
+# print(my_list)
+
+# # count sum of elements in the list
+# my_list = [10, 1, 8, 3, 5]
+# total = 0
+#
+# for i in my_list:
+#     total += i
+#
+# print(total)
+
