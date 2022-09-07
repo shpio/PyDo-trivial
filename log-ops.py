@@ -28,3 +28,65 @@
 # f = x << 2 # 16
 #
 # print(a, b, c, d, e, f)
+
+#listing
+# numbers = [1, 2, 15, 17, 19, 3]
+# print("here are the numbers: ", numbers)
+# print("and here is a specific number: ", numbers[2])
+
+
+
+# numbers = [10, 5, 7, 2, 1]
+# print("Original list content:", numbers)  # Printing original list content.
+#
+# numbers[0] = 111
+# print("\nPrevious list content:", numbers)  # Printing previous list content.
+
+# numbers[1] = numbers[4]  # Copying value of the fifth element to the second.
+# print("Previous list content:", numbers)  # Printing previous list content.
+
+# print("\nList length:", len(numbers))  # Printing the list's length.
+
+
+# numbers = [1, 4, 11, 18, 91, 100, 0]
+# print(len(numbers))
+#
+# numbers[1] = numbers[4]
+#
+# del numbers[1] # delete 1 element in list "4"
+# print(len(numbers)) # output 6
+# print(numbers) # skip "4"
+#
+# print(numbers[4])
+# numbers[4] = 1
+# print(numbers[1])
+
+
+
+# numbers = [10, 5, 7, 2, 1]
+# print("Original list content:", numbers)  # Printing original list content.
+#
+# numbers[0] = 111
+# print("\nPrevious list content:", numbers)  # Printing previous list content.
+#
+# numbers[1] = numbers[4]  # Copying value of the fifth element to the second.
+# print("Previous list content:", numbers)  # Printing previous list content.
+#
+# print("\nList's length:", len(numbers))  # Printing previous list length.
+#
+# ###
+#
+# del numbers[1]  # Removing the second element from the list.
+# print("New list's length:", len(numbers))  # Printing new list length.
+# print("\nNew list content:", numbers)  # Printing current list content.
+#
+# print(numbers[3])
+# numbers[3] = 1
+# ###
+#
+
+hat_list = [1, 2, 3, 4, 5]
+hat_list[2] = int(input("please input number: "))
+del hat_list[-1]
+print(len(hat_list))
+print(hat_list)
