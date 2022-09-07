@@ -143,4 +143,32 @@
 #
 # print(total)
 
+# # practice swapping variables
+#
+# a = 1
+# b = 2
+#
+# a, b = b, a
+# print("a = ", a, "b = ", b, end="")
+
+# # example
+# my_list = [10, 1, 8, 3, 5]
+#
+# my_list[0], my_list[4] = my_list[4], my_list[0]
+# my_list[1], my_list[3] = my_list[3], my_list[1]
+#
+# print(my_list)
+
+# # not clear
+# my_list = [10, 1, 8, 3, 5]
+# length = len(my_list)
+#
+# for i in range(length // 2):
+#     my_list[i], my_list[length - i - 1] = my_list[length - i -1], my_list[i]
+# # output is [5, 3, 8, 1, 10]
+#
+#
+# print(my_list)
+
+# lab
 
