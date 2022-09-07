@@ -228,4 +228,46 @@
 # for color in my_list:
 #     print(color)
 
+# my_list = ['white', 'purple', 'blue', 'yellow', 'green']
+# print(len(my_list))
+#
+# del my_list[0]
+# print(len(my_list))
 
+# 6, 2, 3, 4, 5, 1
+
+# 1, 2, 3, 4, 5
+
+# lst = [1, 2, 3, 4, 5]
+# lst_2 = []
+# add = 0
+
+# for number in lst:
+#     # add += number
+#     add = add + number
+#     print(add)
+# ##     lst_2.append(add)
+# ## print(lst)
+# ## print(lst_2)
+# print(add)
+#
+
+# lst = [1, 2, 3, 4, 5]
+# lst_2 = []
+# add = 0
+#
+# for number in lst:
+#     add += number
+#     lst_2.append(add)
+#
+# print(lst)
+# print(lst_2)
+
+# lst = []
+# del lst # deletes list
+# print(lst)
+
+## nested list as a single object in the list
+# lst = [1, [2, 3], 4]
+# print(lst[1])
+# print(len(lst))
