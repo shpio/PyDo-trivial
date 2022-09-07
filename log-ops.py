@@ -170,37 +170,62 @@
 #
 # print(my_list)
 
-# lab
+######################################lab######################################
+#
+# # step 1
+# beatles = []
+# print("Step 1:", beatles)
+#
+# # step 2
+# beatles.append("John lennon")
+# beatles.append('Paul McCartney')
+# beatles.append('George Harrison')
+#
+# print("Step 2:", beatles)
+#
+# # step 3
+# for i in 'Stu Sutcliffe', 'Pete Best':
+#     beatles.append(i)
+# print("Step 3:", beatles)
+#
+# beatles.index('Pete Best', 1)
+#
+# # step 4
+# # del beatles[3]
+# # del beatles[3]
+# ## or
+# del beatles[-2]
+# del beatles[-1]
+# print("Step 4:", beatles)
+#
+# # step 5
+# beatles.insert(0, 'Ringo Starr')
+# print("Step 5:", beatles)
+#
+# # testing list legth
+# print("The Fab", len(beatles))
 
-# step 1
-beatles = []
-print("Step 1:", beatles)
 
-# step 2
-beatles.append("John lennon")
-beatles.append('Paul McCartney')
-beatles.append('George Harrison')
+# my_list = [1, None, True, 'I am a string', 256, 0]
+# print(my_list)
+#
+# my_list[1] = '?'
+# print(my_list)
 
-print("Step 2:", beatles)
+## nested list
+# my_list = [1, 'a', ["list", 64, [0, 1], False]]
+# print(my_list)
 
-# step 3
-for i in 'Stu Sutcliffe', 'Pete Best':
-    beatles.append(i)
-print("Step 3:", beatles)
+# my_list = [1, 3, 4, 6]
+# del my_list[2]
+# print(my_list)
+# del my_list[2]
+# print(my_list)
 
-beatles.index('Pete Best', 1)
 
-# step 4
-# del beatles[3]
-# del beatles[3]
-## or
-del beatles[-2]
-del beatles[-1]
-print("Step 4:", beatles)
+# my_list = ['white', 'purple', 'blue', 'yellow', 'green']
 
-# step 5
-beatles.insert(0, 'Ringo Starr')
-print("Step 5:", beatles)
+# for color in my_list:
+#     print(color)
 
-# testing list legth
-print("The Fab", len(beatles))
+
