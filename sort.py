@@ -189,3 +189,11 @@
 #
 # print(largest)
 
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[1:3]
+# print(new_list)
+
+#
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[1:-1] # 2 is the end. prints till the end
+# print(new_list)
