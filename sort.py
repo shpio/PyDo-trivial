@@ -197,3 +197,14 @@
 # my_list = [10, 8, 6, 4, 2]
 # new_list = my_list[1:-1] # 2 is the end. prints till the end
 # print(new_list)
+
+# my_list = [10, 8, 6, 4, 2]
+# del my_list[1:3]
+# print(my_list)
+
+
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+to_find = 5
+found = False
+
+
