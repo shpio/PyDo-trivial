@@ -215,3 +215,14 @@
 #     print("Element found at index", i)
 # else:
 #     print("absent")
+
+drawn = [5, 11, 9, 42, 3, 49]
+bets = [3, 7, 11, 42, 34, 49]
+hits = 0
+
+for i in bets:
+    if i in drawn:
+        hits += 1
+        var = print(i)
+        continue
+print("You guess righ 4 numbers", hits)
