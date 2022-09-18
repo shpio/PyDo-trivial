@@ -378,3 +378,78 @@ my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
 #     n -= 1 #
 # else:
 #     print(n) # 0
+
+
+# n = range(4)
+#
+# for num in n:
+#     print(num - 1)
+# else:
+#     print(num)
+
+
+
+# n = range(4) # 0-3
+#
+# for num in n:
+#     print(num - 1) # = -1 # = 0 # = 1 # = 2
+#else:
+#    print(num)  # 0, 1, 2, 3
+# output:
+#-1, 0, 1, 2, 3
+
+
+# for i in range(0, 6, 3):
+#     print(i)
+
+
+# var = 17
+# var_right = var >> 1
+# var_left = var << 2
+# print(var, var_left, var_right)
+#
+# # outputs
+# # 17
+# # var_left = 68
+# 1 0 0 0 1 0 0
+#
+# #var_right = 8
+# 1 0 0 0
+
+# x = 4
+# y = 1
+#
+# a = x & y
+# b = x | y
+# c = ~x  # tricky!
+# d = x ^ 5
+# e = x >> 2
+# f = x << 2
+#
+# print(a, b, c, d, e, f)
+
+# test
+
+# my_list = [4, 5, -3]
+# print(my_list[my_list[-1]])
+
+# not clear why it prints 3 #
+# var = 0
+# while var < 6:
+#     var += 1 # 1 . 2 V. 3, 4 V, 5
+#     if var % 2 == 0:
+#         continue
+#     print("#") #1
+
+
+#print(my_list[my_list[-1]])
+
+#multi-dimentional
+
+# my_list.insert
+
+# boolean precedence
+
+# continue
+
+
