@@ -350,10 +350,31 @@ my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
 # print(cube[2][2][0])  # outputs: ':)'
 
 
+# # check list
+#
+# my_list = [3, 1, -1]
+# print(my_list[-1]) # -1 is the fist from the end ;)
+#
+#
+# my_list = [0 for i in range(1, 3)]
+# print(my_list)
+
+# my_list = [0, 1, 2, 3]
+# x = 1
+# for elem in my_list:
+#     x *= elem
+#     # print(x)
+#     # continue
+# print(x)
 
 
+# review
 
 
-
-
-
+# n = 3
+#
+# while n > 0: # 3 > 0 = True # 2 > 0 = True # 1 > 0  = True
+#     print(n + 1) # 3+1 = 4 # 2+1 = 3 # 1+1 = 2
+#     n -= 1 #
+# else:
+#     print(n) # 0
