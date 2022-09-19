@@ -452,3 +452,11 @@ my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
 
 # continue
 
+# print("\nThe continue instruction:")
+# for i in range(1, 6):
+#     if i == 3:
+#         continue
+#     print("Inside the loop.", i)
+# print("Outside the loop.")
+#
+
