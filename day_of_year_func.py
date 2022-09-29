@@ -9,27 +9,20 @@ def days_in_month(year, month):
     leap = is_year_leap(year) == True
 
     if month in thirtyone:
-        # print(31)
+        print(31)
         return 31
     if month in thirty:
-        # print(30)
+        print(30)
         return 30
     if month == 2 and leap:
-        # print(29)
+        print(29)
         return 29
     if month == 2 and not leap:
-        # print(28)
+        print(28)
         return 28
 
-test_years = [1900, 2000, 2016, 1987, 2022, 1993]
-test_months = [2, 2, 1, 11, 12, 4]
-test_results = [28, 29, 31, 30, 31, 30]
-for i in range(len(test_years)):
-	yr = test_years[i]
-	mo = test_months[i]
-	print(yr, mo, "->", end="")
-	result = days_in_month(yr, mo)
-	if result == test_results[i]:
-		print("OK")
-	else:
-		print("Failed")
+def day_of_year(year, month, day):
+
+
+
+print(day_of_year(2000, 12, 31))
