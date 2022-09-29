@@ -1,0 +1,14 @@
+    month_28 = year == is_year_leap(year) == False and month == 2
+    month_29 = year == is_year_leap(year) == True and month == 2
+    # month30 = is_year_leap(year) == True or False or 4 or 6 or 9 or 11
+    # month31 = is_year_leap(year) == True or False or 1 or 3 or 5 or 7 or 8 or 10 or 12
+    month30 = year == is_year_leap(year) == False or True and month ==  4 or 6 or 9 or 11
+    month31 = year == is_year_leap(year) == False  or True and month == 1 or 3 or 5 or 7 or 8 or 10 or 12
+    if month_28:
+        print("days = 28")
+    if month_29:
+        print("days = 29")
+    if month30:
+        print("days = 30")
+    if month31:
+        print("days = 31")
