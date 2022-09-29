@@ -1,8 +1,7 @@
 def is_year_leap(year):
-
-	leap_year = year % 4 == 0 and year % 100 != 0 or year % 400 == 0
-	print(leap_year)
-	return leap_year
+#
+# put your code here
+#
 
 test_data = [1900, 2000, 2016, 1987]
 test_results = [False, True, True, False]
