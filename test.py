@@ -23,4 +23,4 @@ def days_in_month(year, month):
         return 28
 
 def day_of_year(year, month, day):
-    for day in range (0, month)
+    # for day in range (0, month)
