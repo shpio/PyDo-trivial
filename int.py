@@ -1,2 +1,2 @@
-x = 0
-print(type(x))
+for i in range(9, -1, -1):
+    print(i)
